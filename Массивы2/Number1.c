@@ -22,7 +22,7 @@ void main()
 
     for(int i = 0; i < n; i++)
     {
-        arr[i] *= k;
+        arr[i] += arr[k];
         printf("%d ",arr[i]);
     }
 }
