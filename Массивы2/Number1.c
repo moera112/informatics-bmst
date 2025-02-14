@@ -19,10 +19,11 @@ void main()
     }
 
     scanf("%d\n",&k);
+    int k1 = arr[k];
 
     for(int i = 0; i < n; i++)
     {
-        arr[i] += arr[k];
+        arr[i] += k1;
         printf("%d ",arr[i]);
     }
 }
