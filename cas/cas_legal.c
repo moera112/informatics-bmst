@@ -615,7 +615,7 @@ int main()
             break;
         }
 
-        printf("ahuet = %d",ahuet);
+
 
 
 
@@ -626,7 +626,7 @@ int main()
         int inform;
         scanf("%d",&inform);
 
-        if(inform == 1) info(ahuet);
+        if(inform == 1) info(iscrazy);
 
 
 
@@ -830,7 +830,7 @@ int main()
 
                     if(bonus >= 3)
                     {
-                        int bw = bonus_buy(solo_bet, ahuet);
+                        int bw = bonus_buy(solo_bet, iscrazy);
                         bal += bw;
                         bw = 0;
                         if(iscrazy) crazy_mode();
@@ -1006,7 +1006,7 @@ int main()
                                     break;
                                 case 'B':
                                     if(iscrazy) crazy_mode();
-                                    bw = bonus_buy(bet, ahuet);
+                                    bw = bonus_buy(bet, iscrazy);
                                     bal += bw;
                                     printf("\tБаланс = %d",bal);
                                     break;
